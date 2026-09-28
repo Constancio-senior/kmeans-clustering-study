@@ -23,7 +23,7 @@ Esse valor indica uma boa separação entre os grupos para este conjunto de dado
 
 ## Visualização
 
-![K-Means Clustering](src/teste.png)
+![K-Means Clustering](src/kmeans_clustering.png)
 
 Os pontos representam as amostras agrupadas pelo K-Means e os marcadores **X vermelhos** representam os centroides encontrados pelo modelo.
 
@@ -43,8 +43,8 @@ kmeans-clustering-study/
 ├── outputs/
 │   └── dados_sinteticos.png
 ├── src/
-│   ├── teste.py
-│   └── teste.png
+│   ├── kmeans_clustering.py
+│   └── Kmeans_clustering.png
 ├── .gitignore
 ├── README.md
 └── requirements.txt
@@ -54,7 +54,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 Depois execute:
-python src/teste.py
+python src/kmeans_clustering.py
 Conceitos demonstrados
 K-Means
 Algoritmo de aprendizado não supervisionado que divide os dados em grupos com base na proximidade em relação aos centroides.
