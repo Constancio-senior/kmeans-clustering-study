@@ -24,5 +24,5 @@ plt.ylabel("Feature X2")
 plt.grid(True, alpha=0.3)
 plt.legend()
 
-plt.savefig(__file__.replace("teste.py", "teste.png"))
+plt.savefig(__file__.replace("kmeans_clustering.py","kmeans_clustering.png))
 plt.close()
